@@ -53,6 +53,7 @@ class Game {
         x = x + 200;
         //use data from the database to display the cars in y direction
         y = displayHeight-allPlayers[plr].distance;
+        
         cars[index-1].x = x;
         cars[index-1].y = y;
 
