@@ -35,8 +35,8 @@ class Game {
 
   play(){
     form.hide();
-    textSize(30);
-    text("Game Start", 120, 100)
+    //textSize(30);
+    //text("Game Start", 120, 100)
     Player.getPlayerInfo();
 
     if(allPlayers !== undefined){
@@ -77,5 +77,7 @@ class Game {
       player.distance +=10
       player.update();
     }
+    drawSprites();
   }
 }
+
